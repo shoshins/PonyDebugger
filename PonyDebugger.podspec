@@ -10,6 +10,8 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.ios.deployment_target = '5.0'
+  s.osx.deployment_target = '10.11'
+  s.tvos.deployment_target = '9.0'
   s.source_files = 'ObjC/{DerivedSources,PonyDebugger}/**/*.{h,m}'
   s.frameworks = 'CoreData', 'CoreGraphics'
   s.dependency 'SocketRocket'
