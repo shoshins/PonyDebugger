@@ -547,7 +547,7 @@ static NSArray *prettyStringPrinters = nil;
 - (void)dealloc;
 {
     if (_queue) {
-        dispatch_release(_queue);
+        //dispatch_release(_queue);
     }
 }
 
